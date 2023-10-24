@@ -1,0 +1,49 @@
+name: lungs_pneumonia_ai
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.7.0
+  flutter_svg: ^2.0.5
+  carousel_slider: ^4.2.1
+  get: ^4.6.5
+  image_picker: ^0.8.7+4
+  lottie: ^2.3.2
+  tflite: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/tflite/
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/json/
+    - assets/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
